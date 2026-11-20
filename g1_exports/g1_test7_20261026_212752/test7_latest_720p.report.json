@@ -1,0 +1,15 @@
+{
+  "output": "E:\\TEST_RECORD\\g1_exports\\g1_test7_20261026_212752\\test7_latest_720p.mp4",
+  "poster": "E:\\TEST_RECORD\\g1_exports\\g1_test7_20261026_212752\\test7_latest_720p_poster.png",
+  "checkpoint": "E:\\TEST_RECORD\\g1_exports\\g1_test7_20261026_212752\\latest.pt",
+  "iteration": 13443,
+  "codec": "avc1",
+  "width": 960,
+  "height": 720,
+  "fps": 15,
+  "frames": 273,
+  "simulation_seconds": 18.139999999999702,
+  "fallen": true,
+  "max_root_xy_error_m": 1.9273649577325258,
+  "reference_completed": false
+}

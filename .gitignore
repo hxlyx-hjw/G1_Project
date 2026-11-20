@@ -1,0 +1,73 @@
+# Credentials and local runtime secrets
+api_key.txt
+tavily_api_key.txt
+*.secret
+.env
+.env.*
+!.env.example
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+G1/G1_LLM_Robot/bin/
+G1/G1_LLM_Robot/include/
+G1/G1_LLM_Robot/lib/
+G1/G1_LLM_Robot/lib64/
+G1/G1_LLM_Robot/pyvenv.cfg
+
+# Licensed model weights and local model distribution trees
+G1/models/
+
+# Large/generated media and training outputs
+G1/runs/
+G1/outputs/
+G1/vedio/
+G1/vedio_self/
+G1/G1_LLM_Robot/vedio_self/
+G1/G1_LLM_Robot/G1_LLM_Robot/logs/
+G1/G1_LLM_Robot/G1_LLM_Robot/motions/
+G1/G1_LLM_Robot/G1_LLM_Robot/outputs/
+G1/G1_LLM_Robot/G1_LLM_Robot/runs/
+G1/G1_LLM_Robot/G1_LLM_Robot/skills/
+G1/G1_LLM_Robot/G1_LLM_Robot/vedio/
+g1_exports/**/*.mp4
+g1_exports/**/*.gif
+g1_exports/**/*.pt
+g1_exports/**/*.npz
+
+# Binary artifacts and archives
+*.ckpt
+*.pth
+*.pt
+*.npz
+*.mp4
+*.gif
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Local toolchains and caches
+node_modules/
+.cache/
+.claude/
+.codex/
+.tmp/
+*.tmp
+
+# IDE/editor state
+.vs/
+.vscode/
+.idea/
+*.pyproj.user

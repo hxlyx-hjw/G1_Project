@@ -1,0 +1,7 @@
+{
+  "source": "motions/self_test1/pose_full.npz",
+  "start_seconds": 4.181578947368421,
+  "end_seconds": 10.85219298245614,
+  "frames": 68,
+  "excluded": "近景讲解、镜头切换和腿部不可见区间"
+}

@@ -1,0 +1,15 @@
+{
+  "output": "E:\\TEST_RECORD\\g1_exports\\g1_test7_20261026_212752\\test7_latest.gif",
+  "checkpoint": "E:\\TEST_RECORD\\g1_exports\\g1_test7_20261026_212752\\latest.pt",
+  "frames": 273,
+  "fps": 15,
+  "fallen": true,
+  "simulation_seconds": 18.139999999999702,
+  "reference_completed": false,
+  "joint_rmse_rad": 0.8057236159868992,
+  "max_root_xy_error_m": 1.9273649577325258,
+  "leg_weight": 0.0,
+  "joint_assist": true,
+  "render_mode": "physical_policy_rollout",
+  "video_controller": {}
+}

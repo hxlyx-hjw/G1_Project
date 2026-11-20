@@ -1,0 +1,43 @@
+[SuperMimic][extract] 5.0% 提取视频姿态
+[SuperMimic][extract] 5.0% 提取骨架 1/628
+[SuperMimic][extract] 6.7% 提取骨架 35/628
+[SuperMimic][extract] 8.5% 提取骨架 73/628
+[SuperMimic][extract] 10.3% 提取骨架 110/628
+[SuperMimic][extract] 12.1% 提取骨架 148/628
+[SuperMimic][extract] 13.9% 提取骨架 186/628
+[SuperMimic][extract] 15.7% 提取骨架 223/628
+[SuperMimic][extract] 17.5% 提取骨架 261/628
+[SuperMimic][extract] 19.3% 提取骨架 299/628
+[SuperMimic][extract] 21.1% 提取骨架 336/628
+[SuperMimic][extract] 22.9% 提取骨架 374/628
+[SuperMimic][extract] 24.7% 提取骨架 412/628
+[SuperMimic][extract] 35.0% 提取骨架 418/418
+[SuperMimic][retarget] 45.0% G1 全身重定向
+[SuperMimic][convert] 58.0% 转换为 SuperMimic 30 Hz 36 列动作
+[SuperMimic][ready] 62.0% 动作提取和格式转换完成
+[SuperMimic][viewer] 62.0% 打开 MuJoCo 实时渲染
+[SuperMimic][viewer] 62.0% MuJoCo 渲染已打开并保持运行
+[SuperMimic][train_start] 65.0% 准备自动启动 SuperMimic 策略训练
+[SuperMimic][train] 65.0% SuperMimic 训练已启动
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 95.0% iteration=3 SuperMimic 训练运行中
+[SuperMimic][train_completed] 95.0% iteration=3 SuperMimic 训练完成
+[SuperMimic][viewer_open] 100.0% iteration=3 训练结束，渲染窗口保持打开；关闭窗口后任务退出
+[SuperMimic][done] 100.0% iteration=3 流水线结束

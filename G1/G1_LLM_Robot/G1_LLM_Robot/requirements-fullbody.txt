@@ -1,0 +1,7 @@
+-r requirements-video.txt
+gymnasium>=1.0
+yt-dlp>=2026.8.19
+requests>=2.32
+ddgs>=9
+tavily-python>=0.5
+# PyTorch沿用现有CUDA或CPU版本；安装方式见README.md。

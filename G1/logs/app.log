@@ -1,0 +1,2627 @@
+2026-10-18 13:38:42,645 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 341, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 299, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 13:39:32,078 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 341, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 299, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 13:41:20,608 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 341, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 299, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 18:35:46,650 ERROR g1robot 机器人工具 robot_train_video 执行失败，参数={'iterations': 5000, 'skill_name': 'test2_video_skill', 'video': 'C:\\Users\\lenovo\\Desktop\\EmbodiedAI\\G1_LLM_Robot\\vedio_self\\test2.mp4'}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 341, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 298, in <lambda>
+    "robot_train_video": lambda args: self._training_result(self.training.start(**args)),
+                                                            ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 40, in start
+    if task['worker'].poll() is None: raise RuntimeError('已有训练正在运行，请先查询或停止')
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 已有训练正在运行，请先查询或停止
+2026-10-18 20:53:27,319 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 345, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 302, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 20:54:33,287 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 345, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 302, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 20:59:31,013 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 345, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 302, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 21:02:15,954 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 345, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 302, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 21:07:39,216 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 345, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 302, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-18 21:10:21,963 ERROR g1robot 机器人工具 robot_learn_action 执行失败，参数={'action': '模仿本地视频 test4.mp4 中的上半身动作', 'source_urls': ['C:\\Users\\lenovo\\Desktop\\EmbodiedAI\\G1_LLM_Robot\\vedio_self\\test4.mp4'], 'iterations': 3000, 'auto_adjust': True, 'render': True}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 345, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 292, in <lambda>
+    "robot_learn_action": lambda args: self._training_result(self.training.learn_action(**args)),
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 82, in learn_action
+    for url in source_urls: valid_url(url)
+                            ~~~~~~~~~^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\web_video.py", line 15, in valid_url
+    raise ValueError('视频地址必须为http/https且不包含账号密码')
+ValueError: 视频地址必须为http/https且不包含账号密码
+2026-10-19 00:32:52,455 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 306, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 00:32:53,757 ERROR g1robot 机器人工具 robot_coordination_status 执行失败，参数={'task_id': 'missing'}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 296, in <lambda>
+    "robot_coordination_status": lambda args: self._training_result(self.coordination.status(args['task_id'])),
+                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\coordination\tools.py", line 31, in status
+    if not task: raise ValueError('未知协调任务')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 未知协调任务
+2026-10-19 00:34:53,040 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 306, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 95, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 00:58:17,260 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 306, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 103, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 00:59:21,268 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 306, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 103, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 01:00:53,556 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 306, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 103, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 01:02:43,672 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 306, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 103, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 01:43:38,792 ERROR g1robot 机器人工具 robot_export_gif 执行失败，参数={'job_id': 'coord_391b48664e', 'fps': 20, 'max_seconds': 4}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 350, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 303, in <lambda>
+    "robot_export_gif": lambda args: self._training_result(self.training.export_gif(**args)),
+                                                           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 128, in export_gif
+    _,task=self._task(job_id)
+           ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 14:10:55,982 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 103, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 14:12:17,508 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 14:12:17,634 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 103, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 99, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 14:53:50,206 ERROR g1robot 机器人工具 robot_train_video 执行失败，参数={'iterations': 120, 'leg_weight': 0.85, 'max_seconds': 20, 'num_envs': 4, 'skill_name': 'vid_test2', 'video': 'C:\\Users\\lenovo\\Desktop\\EmbodiedAI\\G1_LLM_Robot\\vedio_self\\test2.mp4'}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 355, in <lambda>
+    "robot_train_video": lambda args: self._training_result(self.training.start(**args)),
+                                                            ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 42, in start
+    if task['worker'].poll() is None: raise RuntimeError('已有训练正在运行，请先查询或停止')
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 已有训练正在运行，请先查询或停止
+2026-10-19 17:16:50,590 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 108, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 104, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 17:17:08,704 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 17:17:08,840 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 108, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 104, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 17:18:02,964 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 17:18:03,098 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 108, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 104, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 17:18:37,251 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 17:18:37,388 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 108, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 104, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:36:42,405 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:36:42,541 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 108, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 104, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:38:49,803 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:38:49,958 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:41:04,339 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:41:04,704 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:41:51,390 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:41:51,756 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:42:37,224 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:42:37,616 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:43:22,009 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:43:22,381 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:43:45,553 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:43:45,924 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 18:45:24,618 ERROR g1robot 机器人工具 robot_sequence 执行失败，参数={'steps': [{'type': 'wait', 'seconds': 3}]}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\coordination\tools.py", line 67, in before_action
+    if self.pending: return self.handoff(self.pending)
+                            ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\coordination\tools.py", line 57, in handoff
+    if not task['result'].is_file(): raise RuntimeError('跳跃尚未稳定，请先查询状态；后续动作暂不执行')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 跳跃尚未稳定，请先查询状态；后续动作暂不执行
+2026-10-19 18:59:19,190 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 18:59:19,554 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 19:00:34,245 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 19:00:34,614 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 106, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 19:02:31,108 ERROR g1robot 机器人工具 robot_sequence 执行失败，参数={'steps': [{'type': 'wait', 'seconds': 3}]}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\coordination\tools.py", line 67, in before_action
+    if self.pending: return self.handoff(self.pending)
+                            ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\coordination\tools.py", line 57, in handoff
+    if not task['result'].is_file(): raise RuntimeError('跳跃尚未稳定，请先查询状态；后续动作暂不执行')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 跳跃尚未稳定，请先查询状态；后续动作暂不执行
+2026-10-19 22:11:38,393 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 22:11:38,762 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 22:14:54,149 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 22:14:54,516 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 22:16:06,357 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 22:16:06,724 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 22:16:38,445 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 22:16:38,811 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 22:17:35,638 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 22:17:36,004 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 23:35:07,086 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 23:35:07,460 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 23:37:37,265 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 23:37:37,634 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-19 23:39:31,596 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 403, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-19 23:39:31,960 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 404, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 356, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 114, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 110, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:09:32,108 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:09:39,288 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:10:25,925 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 13:10:27,371 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:12:33,386 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 13:12:34,877 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:13:10,164 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 13:13:11,662 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:13:33,343 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:14:10,980 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 13:14:12,467 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:14:29,887 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:14:44,281 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 13:14:45,829 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 13:16:02,309 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 13:16:03,844 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 18:51:56,327 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 18:52:39,705 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 18:52:41,168 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-20 19:09:36,690 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 405, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-20 19:09:38,236 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 406, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 357, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 19:16:48,943 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 19:17:17,950 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 19:17:19,312 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 19:18:37,659 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 19:18:39,070 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 19:47:29,195 INFO g1robot migration check: data root E:/TEST_RECORD/G1
+2026-10-21 19:47:50,836 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 19:47:52,207 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 19:49:40,273 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 19:49:41,672 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 19:54:07,977 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 19:54:09,391 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 125, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 121, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 21:49:37,226 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 21:49:38,582 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 21:49:54,511 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 21:49:55,912 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 21:54:57,762 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 21:54:59,168 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 13:57:04,366 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 13:57:05,802 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 413, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 21:57:41,000 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 21:57:42,408 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 21:59:20,336 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 21:59:21,744 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 22:00:44,197 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 14:00:45,134 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 22:00:45,610 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lenovo\Desktop\EmbodiedAI\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 14:00:46,598 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 413, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 14:01:42,945 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 14:01:44,370 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 413, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 22:02:48,569 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 22:02:50,026 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-21 14:03:24,259 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-21 14:03:25,638 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 413, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 14:19:48,065 ERROR g1robot 机器人工具 robot_sequence 执行失败，参数={'steps': [{'type': 'wait', 'seconds': 5}]}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\coordination\tools.py", line 71, in before_action
+    if self.pending: return self.handoff(self.pending)
+                            ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\coordination\tools.py", line 61, in handoff
+    if not task['result'].is_file(): raise RuntimeError('跳跃尚未稳定，请先查询状态；后续动作暂不执行')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 跳跃尚未稳定，请先查询状态；后续动作暂不执行
+2026-10-22 20:52:50,662 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 412, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-22 20:52:52,012 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 413, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 359, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 126, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 122, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 21:38:05,179 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 415, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-22 21:38:06,581 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 181, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 177, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 21:38:34,359 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 181, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 177, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 22:08:30,018 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 437, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]
+2026-10-22 22:09:04,608 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 437, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]
+2026-10-22 22:09:09,286 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 415, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-22 22:09:10,702 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 202, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 198, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 22:09:42,008 ERROR g1robot 机器人工具 robot_train_video 执行失败，参数={'video': 'vedio/example.mp4'}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 361, in <lambda>
+    "robot_train_video": lambda args: self._training_result(self.training.start(**self._require_rl_pd(args))),
+                                                                                  ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 435, in _require_rl_pd
+    raise ValueError('启动训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]')
+ValueError: 启动训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]
+2026-10-22 22:09:42,010 ERROR g1robot 机器人工具 robot_learn_action 执行失败，参数={'action': 'test'}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 345, in <lambda>
+    "robot_learn_action": lambda args: self._training_result(self.training.learn_action(**self._require_rl_pd(args))),
+                                                                                          ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 435, in _require_rl_pd
+    raise ValueError('启动训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]')
+ValueError: 启动训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]
+2026-10-22 22:09:42,010 ERROR g1robot 机器人工具 robot_docker_train 执行失败，参数={'directory': 'motions'}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 366, in <lambda>
+    "robot_docker_train": lambda args: self._training_result(self.docker.start(**self._require_rl_pd(args))),
+                                                                                 ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 435, in _require_rl_pd
+    raise ValueError('启动训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]')
+ValueError: 启动训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]
+2026-10-22 22:09:45,408 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 444, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问手部和脚部的RL-PD收敛因子范围[min,max]
+2026-10-22 22:09:50,066 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 415, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-22 22:09:51,478 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 202, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 198, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 22:10:14,592 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 446, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-22 22:10:14,630 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 202, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 198, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 22:10:23,456 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 446, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-22 22:10:28,105 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 415, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-22 22:10:29,468 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 202, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 198, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-22 14:41:48,015 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 416, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 446, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-22 14:41:51,812 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 415, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-22 14:41:53,316 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 416, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 202, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 198, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 15:00:38,798 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 446, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 15:00:43,559 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 415, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 15:00:44,946 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 416, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 202, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 198, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 07:01:11,983 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 416, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 446, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 07:01:16,155 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 415, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 07:01:17,735 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 416, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 362, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 202, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 198, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 18:22:33,012 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 418, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 448, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 18:22:33,041 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 418, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 364, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 18:22:44,429 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 418, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 448, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 18:22:44,461 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 418, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 364, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 18:24:50,999 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 418, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 448, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 18:24:55,685 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 417, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 18:24:57,146 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 418, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 364, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 10:25:21,046 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 418, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 348, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 448, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 10:25:25,888 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 417, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 10:25:27,505 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 418, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 364, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 18:36:45,356 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 18:36:45,845 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 18:37:01,141 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 18:37:01,641 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 18:37:12,193 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 589, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 18:37:16,794 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 18:37:18,280 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 18:37:52,483 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 592, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 18:37:57,099 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 18:37:58,494 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-24 10:38:22,411 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 453, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 592, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-24 10:38:27,676 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+  File "/usr/lib/python3.12/unittest/mock.py", line 1134, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1138, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/mock.py", line 1193, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-24 10:38:29,178 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 453, in dispatch
+    result = handler(args)
+             ^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ^^^^^^^^^^^^^^^^^^
+  File "/workspace/G1_LLM_Robot/fullbody/jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-27 19:26:34,534 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 275, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 271, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-27 19:32:33,846 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 281, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 277, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-27 19:34:17,372 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-27 20:09:09,237 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-27 20:13:03,953 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-27 20:46:48,291 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-28 00:06:54,374 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-30 16:17:22,400 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 592, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-30 16:17:26,665 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-30 16:17:28,697 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-10-30 16:17:35,862 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\robot_tools.py", line 592, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-10-30 16:17:38,898 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-10-30 16:17:40,127 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\fullbody\jobs.py", line 271, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1-CPU-Training-Package\code\fullbody\jobs.py", line 267, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-11-04 19:54:57,016 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 592, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-11-04 19:55:01,428 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-11-04 19:55:03,401 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-11-04 21:35:49,027 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 592, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-11-04 21:35:52,897 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-11-04 21:35:54,873 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-11-04 21:38:58,204 ERROR g1robot 机器人工具 robot_amass_train 执行失败，参数={'motion_id': '66d102bf30f6', 'render': False}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 375, in <lambda>
+    "robot_amass_train": lambda args: self._training_result(self._amass_train(args)),
+                                                            ~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 592, in _amass_train
+    raise ValueError('启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]')
+ValueError: 启动AMASS训练前必须向用户询问RL-PD影响因子、手部和脚部收敛因子范围[min,max]
+2026-11-04 21:39:01,845 ERROR g1robot 机器人工具 robot_walk 执行失败，参数={'vx': 0.2}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 452, in dispatch
+    self.coordination.before_action()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lenovo\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: 跳跃尚未稳定
+2026-11-04 21:39:03,811 ERROR g1robot 机器人工具 robot_training_status 执行失败，参数={}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 391, in <lambda>
+    "robot_training_status": lambda args: self._training_result(self.training.status(args.get('job_id'))),
+                                                                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 283, in status
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id
+2026-11-04 21:48:16,247 ERROR g1robot 机器人工具 robot_training_stop 执行失败，参数={'job_id': 'sm-video_20261104_214235_fee9fd18'}
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 453, in dispatch
+    result = handler(args)
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\robot_tools.py", line 393, in <lambda>
+    "robot_training_stop": lambda args: self._training_result(self.training.stop(args.get('job_id'))),
+                                                              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 320, in stop
+    job_id,task=self._task(job_id)
+                ~~~~~~~~~~^^^^^^^^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\fullbody\jobs.py", line 279, in _task
+    if job_id not in self.jobs: raise ValueError('没有此训练任务，请使用start返回的job_id')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 没有此训练任务，请使用start返回的job_id

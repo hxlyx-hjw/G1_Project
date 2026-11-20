@@ -1,0 +1,20 @@
+{
+  "run_root": "E:\\TEST_RECORD\\RAX\\rax_min\\runs\\g1_deepseek_rax_20261031_160712_3c16097a",
+  "budget": 1,
+  "stable_samples": 1,
+  "bundle_sha256": "044bd5df1e067d632b153fef4fca8061bb46d15ec5739ad0ba85ed07c04cf9c0",
+  "rehearsal": {
+    "returncode": 0,
+    "timed_out": false,
+    "success": true,
+    "distance_m": 0.051496
+  },
+  "formal": {
+    "successes": 2,
+    "total": 8,
+    "success_rate": 0.25,
+    "mean_distance_m": 0.149502,
+    "max_distance_m": 0.224288
+  },
+  "operator_only_report": "E:\\TEST_RECORD\\RAX\\rax_min\\runs\\g1_deepseek_rax_20261031_160712_3c16097a\\operator\\formal_results.json"
+}

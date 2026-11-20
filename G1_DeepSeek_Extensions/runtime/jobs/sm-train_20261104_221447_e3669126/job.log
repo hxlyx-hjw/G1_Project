@@ -1,0 +1,4 @@
+Artifacts stay on the training server's persistent disk. No automatic download, prefetch, archive/replay/weight transfer, mirroring or resume-transfer. Integrity/recovery checks run on the server; retrieve only small text metrics and metadata. Previously authorized shutdown follows training/storage/test completion without waiting for downloads.
+it 50 | 0.353 h | wm 0.1205 e8 0.1637 | pi 0.000 v 0.0000 imag_r 0.000 surv 0.000 | sim_r 0.239 ep_len 37.4 ep_ret 0.231 term 1.00 | 0.04 it/s
+it 100 | 0.694 h | wm 0.0207 e8 0.0331 | pi 0.000 v 0.0000 imag_r 0.000 surv 0.000 | sim_r 0.220 ep_len 35.9 ep_ret 0.215 term 0.93 | 0.04 it/s
+it 150 | 0.979 h | wm 0.0157 e8 0.0273 | pi 0.000 v 0.0000 imag_r 0.000 surv 0.000 | sim_r 0.258 ep_len 28.6 ep_ret 0.253 term 0.94 | 0.05 it/s

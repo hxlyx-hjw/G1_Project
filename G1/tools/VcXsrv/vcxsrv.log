@@ -1,0 +1,32 @@
+Welcome to the VcXsrv X Server
+Vendor: The VcXsrv Project
+Release: 21.1.16.1
+
+OS: Windows NT 6.2 build 9200 (64-bit)
+Contact: https://github.com/marchaesen
+
+LoadPreferences: C:\Users\lenovo\AppData\Roaming\.XWinrc not found
+LoadPreferences: Loading E:\TEST_RECORD\G1\tools\VcXsrv\system.XWinrc
+(II) AIGLX: Testing pixelFormatIndex 5
+(II) GLX: enabled GLX_SGI_make_current_read
+(II) GLX: enabled GLX_SGI_swap_control
+(II) GLX: enabled GLX_MESA_swap_control
+(II) GLX: enabled GLX_SGIX_pbuffer
+(II) GLX: enabled GLX_ARB_multisample
+(II) GLX: enabled GLX_SGIS_multisample
+(II) GLX: enabled GLX_ARB_fbconfig_float
+(II) GLX: enabled GLX_EXT_fbconfig_packed_float
+(II) GLX: enabled GLX_ARB_create_context
+(II) GLX: enabled GLX_ARB_create_context_profile
+(II) GLX: enabled GLX_ARB_create_context_robustness
+(II) GLX: enabled GLX_EXT_create_context_es2_profile
+(II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+(II) 670 pixel formats reported by wglGetPixelFormatAttribivARB
+(II) GLX: Initialized Win32 native WGL GL provider for screen 0
+winClipboardThreadProc - DISPLAY=127.0.0.1:1.0
+winClipboardProc - xcb_connect () returned and successfully opened the display.
+Using Composite redirection
+winMultiWindowWMProc - Error code: 8 (Match), ID: 0x200001, Major opcode: 12 (ConfigureWindow), Minor opcode: 0 ((null))
+winMultiWindowWMProc - Error code: 8 (Match), ID: 0x200001, Major opcode: 12 (ConfigureWindow), Minor opcode: 0 ((null))
+winMultiWindowWMProc - Error code: 3 (Window), ID: 0x200007, Major opcode: 18 (ChangeProperty), Minor opcode: 0 ((null))
+winMultiWindowWMProc - Error code: 3 (Window), ID: 0x200007, Major opcode: 19 (DeleteProperty), Minor opcode: 0 ((null))

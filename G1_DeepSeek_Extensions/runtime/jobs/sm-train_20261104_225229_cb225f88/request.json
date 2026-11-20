@@ -1,0 +1,19 @@
+{
+  "command": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu-22.04",
+    "--exec",
+    "env",
+    "G1_DEEPSEEK_SUPERMIMIC_VENV=/mnt/d/G1_Envs/SuperMimic",
+    "SUPERMIMIC_EXPERIMENT_ROOT=/mnt/e/TEST_RECORD/SuperMimic/runs",
+    "bash",
+    "/mnt/e/TEST_RECORD/SuperMimic/scripts/supermimic_train.sh",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-video_20261104_215610_5c91cedb/motion",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-train_20261104_225229_cb225f88",
+    "200",
+    "1",
+    "smoke"
+  ],
+  "cwd": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions"
+}

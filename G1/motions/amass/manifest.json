@@ -1,0 +1,2237 @@
+[
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A1-Stand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A1-Stand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A10-lietocrouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A10-lietocrouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A11-crawlforward_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A11-crawlforward_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A12-crawlbackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A12-crawlbackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A14-standtoskip_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A14-standtoskip_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A15-skiptostand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A15-skiptostand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A2-Sway_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A2-Sway_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A2-Swayt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A2-Swayt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A3-Swing_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A3-Swing_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A3-Swingt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A3-Swingt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A4-look_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A4-look_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A5-pickupbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A5-pickupbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A6-liftbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A6-liftbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A6-liftboxt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A6-liftboxt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A7-crouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A7-crouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A8-crouchtolie_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A8-crouchtolie_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1General_c3d\\A9-liet2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1General_c3d\\A9-liet2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Gestures_c3d\\D1-Urban1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Gestures_c3d\\D1-Urban1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Gestures_c3d\\D2-Wait1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Gestures_c3d\\D2-Wait1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Gestures_c3d\\D3-ConversationGestures_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Gestures_c3d\\D3-ConversationGestures_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Gestures_c3d\\Female1SubjCalibration_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Gestures_c3d\\Female1SubjCalibration_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C10-runbackwardsstoprunforward_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C10-runbackwardsstoprunforward_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C11-runturnleft90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C11-runturnleft90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C13-runturnleft135_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C13-runturnleft135_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C14-runturnright90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C14-runturnright90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C15-runturnright45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C15-runturnright45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C16-runturnright135_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C16-runturnright135_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C19-runtohoptowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C19-runtohoptowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C2-Runtostand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C2-Runtostand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C20-runtojumptowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C20-runtojumptowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C21-runtopickupbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C21-runtopickupbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C21s2-runtopickupbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C21s2-runtopickupbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C22-runwithbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C22-runwithbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C24-sidestepleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C24-sidestepleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C25-sidestepright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C25-sidestepright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C26-runtocrouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C26-runtocrouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C27-crouchtorun1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C27-crouchtorun1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C3-Run_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C3-Run_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C4-Runtowalk1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C4-Runtowalk1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C5-walktorun_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C5-walktorun_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C6-standtorunbackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C6-standtorunbackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C7-runbackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C7-runbackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C8-runbackwardstostand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C8-runbackwardstostand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Running_c3d\\C9-runbackwardsturnrunforward_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Running_c3d\\C9-runbackwardsturnrunforward_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B1-standtowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B1-standtowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B10-walkturnleft45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B10-walkturnleft45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B11-walkturnleft135_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B11-walkturnleft135_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B12-walkturnright90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B12-walkturnright90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B13-walkturnright45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B13-walkturnright45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B14-walkturnright135_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B14-walkturnright135_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B15-walkturnaroundsamedirection_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B15-walkturnaroundsamedirection_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B16-walkturnchangedirection_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B16-walkturnchangedirection_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B17-walktohoptowalk1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B17-walktohoptowalk1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B18-walktoleaptowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B18-walktoleaptowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B19-walktopickupbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B19-walktopickupbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B2-walktostand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B2-walktostand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B2-walktostandt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B2-walktostandt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B20-walkwithbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B20-walkwithbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B21-putdownboxtowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B21-putdownboxtowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B21s2-putdownboxtowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B21s2-putdownboxtowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B21s3-putdownboxtowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B21s3-putdownboxtowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B22-sidestepleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B22-sidestepleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B23-sidestepright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B23-sidestepright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B24-walktocrouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B24-walktocrouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B25-crouchtowalk1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B25-crouchtowalk1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B27-skiptowalk1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B27-skiptowalk1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B3-walk1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B3-walk1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B4-standtowalkback_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B4-standtowalkback_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B5-walkbackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B5-walkbackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B6-walkbackwardstostand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B6-walkbackwardstostand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B7-walkbackwardsturnforwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B7-walkbackwardsturnforwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Female1Walking_c3d\\B9-walkturnleft90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Female1Walking_c3d\\B9-walkturnleft90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA1-Stand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA1-Stand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA11-MilitaryCrawlForward_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA11-MilitaryCrawlForward_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA12-MilitaryCrawlBackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA12-MilitaryCrawlBackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA2-Sway_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA2-Sway_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA2-Swayt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA2-Swayt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA2-Swayt3_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA2-Swayt3_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA3-SwingArmsWhileStand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA3-SwingArmsWhileStand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA4-LookAround_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA4-LookAround_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA5-PickUpBox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA5-PickUpBox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA6-LiftBox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA6-LiftBox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA7-Crouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA7-Crouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA8-CrourchtoLieforward_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA8-CrourchtoLieforward_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA9-LieDown_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA9-LieDown_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA9-Lieforward_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA9-Lieforward_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1General_c3d\\GeneralA9-Lieforwardt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1General_c3d\\GeneralA9-Lieforwardt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Running_c3d\\RunC24-quicksidestepleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Running_c3d\\RunC24-quicksidestepleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Running_c3d\\RunC25-quicksidestepright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Running_c3d\\RunC25-quicksidestepright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\Male1Cal_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\Male1Cal_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB10-Walkturnleft45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB10-Walkturnleft45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB13-Walkturnright45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB13-Walkturnright45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB15-Walkturnaround_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB15-Walkturnaround_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB16-Walkturnchange_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB16-Walkturnchange_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB17-Walk2hop2walk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB17-Walk2hop2walk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB21-PutDownBoxtowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB21-PutDownBoxtowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB22-Sidestepleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB22-Sidestepleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB23-Sidestepright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB23-Sidestepright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male1Walking_c3d\\WalkB4-StandtoWalkBack_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male1Walking_c3d\\WalkB4-StandtoWalkBack_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A1-Stand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A1-Stand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A10-Lietocrouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A10-Lietocrouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A2-Sway_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A2-Sway_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A3-Swingarms_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A3-Swingarms_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A4-LookAround_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A4-LookAround_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A5-Pickupbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A5-Pickupbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A6-Boxlift_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A6-Boxlift_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A7-Crouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A7-Crouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A8-CrouchtoLie_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A8-CrouchtoLie_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\A9-Lie_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\A9-Lie_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2General_c3d\\male2Calibration_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2General_c3d\\male2Calibration_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsExtended_c3d\\0018_XinJiang002_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsExtended_c3d\\0018_XinJiang002_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsExtended_c3d\\Extended1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsExtended_c3d\\Extended1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsExtended_c3d\\Extended2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsExtended_c3d\\Extended2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsExtended_c3d\\Form1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsExtended_c3d\\Form1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsKicks_c3d\\G13-cresentright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsKicks_c3d\\G13-cresentright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsKicks_c3d\\G17-pushkickleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsKicks_c3d\\G17-pushkickleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsKicks_c3d\\G18-pushkickright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsKicks_c3d\\G18-pushkickright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsKicks_c3d\\G3-frontkick_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsKicks_c3d\\G3-frontkick_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsKicks_c3d\\G5-backkick_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsKicks_c3d\\G5-backkick_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsKicks_c3d\\G6-axekick_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsKicks_c3d\\G6-axekick_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsKicks_c3d\\male2SubjectCal2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsKicks_c3d\\male2SubjectCal2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E1-Jableft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E1-Jableft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E10-bodyhookright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E10-bodyhookright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E11-backfistleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E11-backfistleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E11-bodyhookrightt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E11-bodyhookrightt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E12-backfistright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E12-backfistright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E13-bodycrossleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E13-bodycrossleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E14-bodycrossleftt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E14-bodycrossleftt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E14-bodycrossright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E14-bodycrossright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E15-bodyjabright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E15-bodyjabright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E16-bodyjableft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E16-bodyjableft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E2-Jabright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E2-Jabright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E3-crossleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E3-crossleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E4-crossright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E4-crossright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E5-hookleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E5-hookleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E6-hookright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E6-hookright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E7-uppercutleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E7-uppercutleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E8-uppercutright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E8-uppercutright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsPunches_c3d\\E9-bodyhookleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsPunches_c3d\\E9-bodyhookleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D1-standtoready_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D1-standtoready_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D10-victory2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D10-victory2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D11-readytotauntonetoready_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D11-readytotauntonetoready_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D12-readytotaunttwotoready_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D12-readytotaunttwotoready_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D13-crouchtoready_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D13-crouchtoready_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D14-readytocrouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D14-readytocrouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D15-switchstance_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D15-switchstance_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D16-switchstanceandbounce_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D16-switchstanceandbounce_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D2-walktoready_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D2-walktoready_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D3-runtoready_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D3-runtoready_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D4-readytorelax_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D4-readytorelax_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D5-readytowalkaway_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D5-readytowalkaway_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D7-walktobow_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D7-walktobow_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D8-bowtoready_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D8-bowtoready_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D9-t2-male2blanks_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D9-t2-male2blanks_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D9-victory1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D9-victory1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2MartialArtsStances_c3d\\D9-warmuptoreadytowarmup_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2MartialArtsStances_c3d\\D9-warmuptoreadytowarmup_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C1-standtorun_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C1-standtorun_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C11-runturnleft90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C11-runturnleft90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C12-runturnleft45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C12-runturnleft45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C13-runturnleft135_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C13-runturnleft135_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C14-runturnright90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C14-runturnright90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C15-runturnright45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C15-runturnright45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C16-runturnright135_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C16-runturnright135_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C17-runchangedirection_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C17-runchangedirection_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C18-runtohoptowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C18-runtohoptowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C19-runtojumptowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C19-runtojumptowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C20-runtopickupbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C20-runtopickupbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C23-putdownboxtorun_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C23-putdownboxtorun_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C24-quicksidestepleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C24-quicksidestepleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C25-quicksidestepright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C25-quicksidestepright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C26-runtocrouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C26-runtocrouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C3-run_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C3-run_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C4-runtowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C4-runtowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C4-runtowalka_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C4-runtowalka_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C5-walktorun_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C5-walktorun_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C6-standtorunbackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C6-standtorunbackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C7-runbackwardst2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C7-runbackwardst2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C8-runbackwardstostand_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C8-runbackwardstostand_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Running_c3d\\C9-runbackwardsturnrunforward_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Running_c3d\\C9-runbackwardsturnrunforward_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B10-Walkturnleft45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B10-Walkturnleft45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B11-Walkturnleft135_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B11-Walkturnleft135_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B13-Walkturnright90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B13-Walkturnright90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B14-Walkturnright45_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B14-Walkturnright45_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B14-Walkturnright45t2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B14-Walkturnright45t2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B15-Walkturnaround_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B15-Walkturnaround_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B17-Walktohoptowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B17-Walktohoptowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B17-Walktohoptowalka_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B17-Walktohoptowalka_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B18-Walktoleaptowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B18-Walktoleaptowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B18-Walktoleaptowalkt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B18-Walktoleaptowalkt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B18-Walktoleaptowalkt3_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B18-Walktoleaptowalkt3_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B19-Walktopickupbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B19-Walktopickupbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B20-Walkwithbox_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B20-Walkwithbox_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B21-putdownboxtowalk_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B21-putdownboxtowalk_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B21-putdownboxtowalka_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B21-putdownboxtowalka_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B22-sidestepleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B22-sidestepleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B23-sidestepright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B23-sidestepright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B24-walktocrouch_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B24-walktocrouch_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B26-walktoskip_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B26-walktoskip_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B27-skiptowalka_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B27-skiptowalka_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B4-StandtoWalkbackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B4-StandtoWalkbackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B5-Walkbackwards_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B5-Walkbackwards_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\Male2Walking_c3d\\B9-Walkturnleft90_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\Male2Walking_c3d\\B9-Walkturnleft90_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E1-Turnaroundright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E1-Turnaroundright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E10-sidestepright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E10-sidestepright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E11-blocklefthigh_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E11-blocklefthigh_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E12-blockleftlow_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E12-blockleftlow_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E13-blockrighthigh_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E13-blockrighthigh_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E14-blockrightlow_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E14-blockrightlow_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E15-blockleftmiddle_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E15-blockleftmiddle_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E16-blockrightmiddle_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E16-blockrightmiddle_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E17-blockmiddlehigh_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E17-blockmiddlehigh_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E18-blockmiddlelow_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E18-blockmiddlelow_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E19-dodgeleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E19-dodgeleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E19-dodgeleftt2_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E19-dodgeleftt2_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E2-Turnaroundleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E2-Turnaroundleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E20-dodgeright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E20-dodgeright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E21-duckleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E21-duckleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E22-duckright_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E22-duckright_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E3-advance_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E3-advance_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E4-quickadvance_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E4-quickadvance_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E5-retreat_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E5-retreat_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E6-quickretreat_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E6-quickretreat_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E7-superfastadvance_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E7-superfastadvance_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E8-bounce_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E8-bounce_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\MartialArtsWalksTurns_c3d\\E9-sidestepleft_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\MartialArtsWalksTurns_c3d\\E9-sidestepleft_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\s001\\EricCamper04_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\s001\\EricCamper04_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\s007\\QkWalk1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\s007\\QkWalk1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\s008\\Run1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\s008\\Run1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\s009\\Sprint1_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\s009\\Sprint1_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\ACCAD\\s011\\walkdog_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\ACCAD\\s011\\walkdog_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_005_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_005_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_006_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_006_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_012_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_012_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_033_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_033_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_049_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_049_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_061_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_061_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_082_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_082_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_108_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_108_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_112_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_112_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_129_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_129_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_157_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_157_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_184_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_184_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_187_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_187_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_225_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_225_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_003_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_003_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_080_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_080_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_090_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_090_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_118_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_118_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_167_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_167_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_176_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_176_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_219_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_219_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_223_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_223_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_left_right_240_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_left_right_240_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_001_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_001_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_009_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_009_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_010_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_010_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_034_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_034_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_046_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_046_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_047_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_047_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_057_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_057_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_115_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_115_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_130_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_130_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_179_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_179_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_208_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_208_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_210_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_210_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_217_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_217_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_left_042_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_left_042_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_left_084_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_left_084_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_left_110_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_left_110_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_left_145_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_left_145_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_left_177_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_left_177_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_left_213_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_left_213_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S01_Expert\\Trial_upper_right_left_227_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S01_Expert\\Trial_upper_right_left_227_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_005_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_005_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_006_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_006_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_012_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_012_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_033_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_033_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_049_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_049_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_051_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_051_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_061_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_061_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_081_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_081_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_082_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_082_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_108_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_108_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_112_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_112_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_129_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_129_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_140_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_140_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_152_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_152_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_157_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_157_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_184_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_184_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_187_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_187_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_188_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_188_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_206_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_206_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_225_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_225_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_003_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_003_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_007_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_007_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_013_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_013_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_037_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_037_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_039_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_039_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_056_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_056_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_080_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_080_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_090_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_090_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_118_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_118_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_167_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_167_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_176_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_176_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_223_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_223_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_234_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_234_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_left_right_240_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_left_right_240_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_001_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_001_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_009_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_009_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_010_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_010_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_023_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_023_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_025_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_025_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_034_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_034_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_040_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_040_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_046_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_046_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_047_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_047_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_057_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_057_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_058_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_058_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_115_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_115_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_130_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_130_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_179_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_179_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_180_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_180_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_193_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_193_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_208_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_208_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_210_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_210_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_217_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_217_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_238_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_238_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_004_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_004_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_015_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_015_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_017_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_017_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_042_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_042_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_084_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_084_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_103_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_103_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_110_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_110_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_116_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_116_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_119_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_119_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_138_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_138_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_139_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_139_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_145_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_145_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_148_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_148_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_163_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_163_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_177_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_177_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_195_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_195_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_196_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_196_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_213_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_213_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_227_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_227_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S02_Novice\\Trial_upper_right_left_232_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S02_Novice\\Trial_upper_right_left_232_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_005_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_005_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_006_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_006_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_012_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_012_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_033_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_033_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_049_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_049_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_051_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_051_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_061_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_061_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_081_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_081_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_082_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_082_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_112_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_112_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_129_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_129_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_140_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_140_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_184_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_184_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_188_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_188_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_206_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_206_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_225_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_225_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_003_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_003_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_013_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_013_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_037_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_037_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_167_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_167_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_219_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_219_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_223_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_223_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_left_right_234_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_left_right_234_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_009_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_009_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_010_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_010_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_023_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_023_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_025_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_025_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_034_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_034_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_040_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_040_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_058_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_058_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_115_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_115_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_130_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_130_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_179_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_179_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_180_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_180_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_208_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_208_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_217_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_217_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_238_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_238_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_004_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_004_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_017_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_017_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_042_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_042_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_110_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_110_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_139_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_139_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_145_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_145_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_163_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_163_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_177_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_177_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_195_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_195_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S03_Expert\\Trial_upper_right_left_213_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S03_Expert\\Trial_upper_right_left_213_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_049_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_049_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_051_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_051_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_061_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_061_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_081_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_081_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_082_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_082_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_108_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_108_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_112_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_112_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_129_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_129_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_140_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_140_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_152_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_152_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_157_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_157_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_184_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_184_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_187_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_187_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_188_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_188_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_206_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_206_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_225_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_225_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_043_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_080_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_080_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_118_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_118_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_123_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_144_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_154_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_176_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_176_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_207_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_219_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_219_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_234_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_234_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_left_right_240_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_left_right_240_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_023_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_023_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_040_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_040_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_047_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_047_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_057_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_057_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_058_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_058_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_115_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_115_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_130_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_130_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_179_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_179_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_180_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_180_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_193_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_193_poses_120_jpos.npz",
+    "status": "skipped"
+  },
+  {
+    "source": "D:\\AMASS\\datasets\\AMASS_Retargeted_for_G1\\g1\\BMLhandball\\S04_Expert\\Trial_upper_right_208_poses_120_jpos.npz",
+    "output": "E:\\TEST_RECORD\\G1\\motions\\amass\\BMLhandball\\S04_Expert\\Trial_upper_right_208_poses_120_jpos.npz",
+    "status": "skipped"
+  }
+]

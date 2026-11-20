@@ -1,0 +1,25 @@
+{
+  "job_id": "sm-render_20261031_160756_35d01344",
+  "kind": "supermimic_render",
+  "state": "completed",
+  "pid": 27124,
+  "worker_pid": 43504,
+  "started_at": "2026-10-31T16:07:56.343346+08:00",
+  "finished_at": "2026-10-31T16:08:46.888408+08:00",
+  "returncode": 0,
+  "cwd": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions",
+  "command": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu-22.04",
+    "--exec",
+    "bash",
+    "/mnt/e/TEST_RECORD/SuperMimic/scripts/render_supermimic.sh",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-eval_20261031_160711_a0fb6112/rollout.npz",
+    "walk1_subject1_10s",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-eval_20261031_160711_a0fb6112/g1_deepseek_35d01344_walk1_subject1_10s.mp4",
+    "egl"
+  ],
+  "output_root": "E:\\TEST_RECORD\\SuperMimic\\runs\\g1_deepseek\\sm-eval_20261031_160711_a0fb6112",
+  "log": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions\\runtime\\jobs\\sm-render_20261031_160756_35d01344\\job.log"
+}

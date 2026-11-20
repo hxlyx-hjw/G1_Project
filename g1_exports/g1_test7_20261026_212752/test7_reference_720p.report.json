@@ -1,0 +1,11 @@
+{
+  "output": "E:\\TEST_RECORD\\G1_Project\\g1_exports\\g1_test7_20261026_212752\\test7_reference_720p.mp4",
+  "poster": "E:\\TEST_RECORD\\G1_Project\\g1_exports\\g1_test7_20261026_212752\\test7_reference_720p_poster.png",
+  "reference": "E:\\TEST_RECORD\\G1_Project\\g1_exports\\g1_test7_20261026_212752\\reference.npz",
+  "width": 960,
+  "height": 720,
+  "fps": 15,
+  "frames": 918,
+  "duration_seconds": 61.15008156606852,
+  "root_mode": "contact_grounded_support_refined"
+}

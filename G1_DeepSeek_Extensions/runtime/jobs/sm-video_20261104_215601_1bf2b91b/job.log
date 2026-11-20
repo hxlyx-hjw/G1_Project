@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "E:\TEST_RECORD\SuperMimic\scripts\learn_video.py", line 583, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "E:\TEST_RECORD\SuperMimic\scripts\learn_video.py", line 375, in main
+    extract(
+    ~~~~~~~^
+        video,
+        ^^^^^^
+    ...<10 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "E:\TEST_RECORD\G1_Project\G1\G1_LLM_Robot\G1_LLM_Robot\video_motion\pose.py", line 217, in extract
+    raise ValueError('未检测到清晰的肩、肘、腕及髋部，请使用单人无遮挡视频')
+ValueError: 未检测到清晰的肩、肘、腕及髋部，请使用单人无遮挡视频

@@ -1,0 +1,29 @@
+{
+  "job_id": "sm-train_20261104_225408_a39ba761",
+  "kind": "supermimic_train",
+  "state": "completed",
+  "pid": 15532,
+  "worker_pid": 59788,
+  "started_at": "2026-11-04T22:54:08.519604+08:00",
+  "finished_at": "2026-11-04T22:55:11.440111+08:00",
+  "returncode": 0,
+  "cwd": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions",
+  "command": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu-22.04",
+    "--exec",
+    "env",
+    "G1_DEEPSEEK_SUPERMIMIC_VENV=/mnt/d/G1_Envs/SuperMimic",
+    "SUPERMIMIC_EXPERIMENT_ROOT=/mnt/e/TEST_RECORD/SuperMimic/runs",
+    "bash",
+    "/mnt/e/TEST_RECORD/SuperMimic/scripts/supermimic_train.sh",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-video_20261104_215610_5c91cedb/motion",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-train_20261104_225408_a39ba761",
+    "400",
+    "1",
+    "smoke"
+  ],
+  "output_root": "E:\\TEST_RECORD\\SuperMimic\\runs\\g1_deepseek\\sm-train_20261104_225408_a39ba761",
+  "log": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions\\runtime\\jobs\\sm-train_20261104_225408_a39ba761\\job.log"
+}

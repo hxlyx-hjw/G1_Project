@@ -1,0 +1,15 @@
+{
+  "command": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu-22.04",
+    "--exec",
+    "bash",
+    "/mnt/e/TEST_RECORD/SuperMimic/scripts/render_supermimic.sh",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-eval_20261031_160711_a0fb6112/rollout.npz",
+    "walk1_subject1_10s",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-eval_20261031_160711_a0fb6112/g1_deepseek_35d01344_walk1_subject1_10s.mp4",
+    "egl"
+  ],
+  "cwd": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions"
+}

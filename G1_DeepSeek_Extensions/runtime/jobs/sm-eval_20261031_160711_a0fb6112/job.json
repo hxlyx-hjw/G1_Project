@@ -1,0 +1,24 @@
+{
+  "job_id": "sm-eval_20261031_160711_a0fb6112",
+  "kind": "supermimic_evaluate",
+  "state": "completed",
+  "pid": 39988,
+  "worker_pid": 47184,
+  "started_at": "2026-10-31T16:07:11.940921+08:00",
+  "finished_at": "2026-10-31T16:07:36.179074+08:00",
+  "returncode": 0,
+  "cwd": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions",
+  "command": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu-22.04",
+    "--exec",
+    "bash",
+    "/mnt/e/TEST_RECORD/SuperMimic/scripts/run_supermimic_eval.sh",
+    "/mnt/e/TEST_RECORD/SuperMimic/data/eval_subset",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-eval_20261031_160711_a0fb6112",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-eval_20261031_160711_a0fb6112/rollout.npz"
+  ],
+  "output_root": "E:\\TEST_RECORD\\SuperMimic\\runs\\g1_deepseek\\sm-eval_20261031_160711_a0fb6112",
+  "log": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions\\runtime\\jobs\\sm-eval_20261031_160711_a0fb6112\\job.log"
+}

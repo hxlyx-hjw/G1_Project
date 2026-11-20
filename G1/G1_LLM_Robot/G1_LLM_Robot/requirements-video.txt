@@ -1,0 +1,9 @@
+# 视频姿态重定向的最小依赖；不安装训练框架，不改动现有 CUDA PyTorch。
+numpy>=2.0
+scipy>=1.14
+opencv-python>=4.10
+mediapipe>=0.10.20
+smplx>=0.1.28
+mujoco>=3.3
+pillow>=10
+# PyTorch 使用项目现有版本；需要新装时见 VIDEO_MOTION.md。

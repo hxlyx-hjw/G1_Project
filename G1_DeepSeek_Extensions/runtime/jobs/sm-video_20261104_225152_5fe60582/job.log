@@ -1,0 +1,41 @@
+[SuperMimic][extract] 5.0% 提取视频姿态
+[SuperMimic][extract] 5.3% 提取骨架 1/91
+[SuperMimic][extract] 7.0% 提取骨架 6/91
+[SuperMimic][extract] 9.0% 提取骨架 12/91
+[SuperMimic][extract] 10.9% 提取骨架 18/91
+[SuperMimic][extract] 12.9% 提取骨架 24/91
+[SuperMimic][extract] 14.9% 提取骨架 30/91
+[SuperMimic][extract] 16.9% 提取骨架 36/91
+[SuperMimic][extract] 18.8% 提取骨架 42/91
+[SuperMimic][extract] 20.8% 提取骨架 48/91
+[SuperMimic][extract] 22.8% 提取骨架 54/91
+[SuperMimic][extract] 24.8% 提取骨架 60/91
+[SuperMimic][extract] 26.8% 提取骨架 66/91
+[SuperMimic][extract] 28.7% 提取骨架 72/91
+[SuperMimic][extract] 30.7% 提取骨架 78/91
+[SuperMimic][extract] 32.7% 提取骨架 84/91
+[SuperMimic][extract] 34.7% 提取骨架 90/91
+[SuperMimic][extract] 35.0% 提取骨架 91/91
+[SuperMimic][retarget] 45.0% G1 全身重定向
+[SuperMimic][convert] 58.0% 转换为 SuperMimic 30 Hz 36 列动作
+[SuperMimic][ready] 62.0% 动作提取和格式转换完成
+[SuperMimic][train_start] 65.0% 准备自动启动 SuperMimic 策略训练
+[SuperMimic][train] 65.0% SuperMimic 训练已启动
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% SuperMimic 训练运行中
+[SuperMimic][train] 65.0% iteration=2 SuperMimic 训练运行中
+[SuperMimic][train_completed] 95.0% iteration=2 SuperMimic 训练完成
+[SuperMimic][done] 100.0% iteration=2 流水线结束

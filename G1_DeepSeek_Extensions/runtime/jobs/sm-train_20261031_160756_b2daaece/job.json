@@ -1,0 +1,26 @@
+{
+  "job_id": "sm-train_20261031_160756_b2daaece",
+  "kind": "supermimic_train",
+  "state": "completed",
+  "pid": 43856,
+  "worker_pid": 52236,
+  "started_at": "2026-10-31T16:07:56.917332+08:00",
+  "finished_at": "2026-10-31T16:08:31.895712+08:00",
+  "returncode": 0,
+  "cwd": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions",
+  "command": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu-22.04",
+    "--exec",
+    "bash",
+    "/mnt/e/TEST_RECORD/G1_Project/G1_DeepSeek_Extensions/runners/supermimic_train.sh",
+    "/mnt/e/TEST_RECORD/SuperMimic/data/lafan1_g1",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-train_20261031_160756_b2daaece",
+    "1",
+    "1",
+    "smoke"
+  ],
+  "output_root": "E:\\TEST_RECORD\\SuperMimic\\runs\\g1_deepseek\\sm-train_20261031_160756_b2daaece",
+  "log": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions\\runtime\\jobs\\sm-train_20261031_160756_b2daaece\\job.log"
+}

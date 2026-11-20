@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/mnt/e/TEST_RECORD/SuperMimic/upstream/supermimic/train.py", line 115, in <module>
+    motion = MotionLib.from_dir(args.motion_dir, kin, dev)
+  File "/mnt/e/TEST_RECORD/SuperMimic/upstream/supermimic/motion.py", line 199, in from_dir
+    return cls.from_path(path, kin, device, src_fps, max_motions)
+  File "/mnt/e/TEST_RECORD/SuperMimic/upstream/supermimic/motion.py", line 153, in from_path
+    return cls(files[:max_motions], kin, device, src_fps)
+  File "/mnt/e/TEST_RECORD/SuperMimic/upstream/supermimic/motion.py", line 77, in __init__
+    self._initialize(clips, kin, device)
+  File "/mnt/e/TEST_RECORD/SuperMimic/upstream/supermimic/motion.py", line 81, in _initialize
+    raise ValueError("No motion clips found; provide a local CSV directory or compatible joblib .pkl file")
+ValueError: No motion clips found; provide a local CSV directory or compatible joblib .pkl file

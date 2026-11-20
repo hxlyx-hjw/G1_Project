@@ -1,0 +1,16 @@
+{
+  "command": [
+    "wsl.exe",
+    "-d",
+    "Ubuntu-22.04",
+    "--exec",
+    "bash",
+    "/mnt/e/TEST_RECORD/G1_Project/G1_DeepSeek_Extensions/runners/supermimic_train.sh",
+    "/mnt/e/TEST_RECORD/SuperMimic/data/lafan1_g1",
+    "/mnt/e/TEST_RECORD/SuperMimic/runs/g1_deepseek/sm-train_20261031_160756_b2daaece",
+    "1",
+    "1",
+    "smoke"
+  ],
+  "cwd": "E:\\TEST_RECORD\\G1_Project\\G1_DeepSeek_Extensions"
+}

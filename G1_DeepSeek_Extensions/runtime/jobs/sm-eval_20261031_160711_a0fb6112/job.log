@@ -1,0 +1,22 @@
+Artifacts stay on the training server's persistent disk. No automatic download, prefetch, archive/replay/weight transfer, mirroring or resume-transfer. Integrity/recovery checks run on the server; retrieve only small text metrics and metadata. Previously authorized shutdown follows training/storage/test completion without waiting for downloads.
+{
+ "norm_return": 0.9726661443710327,
+ "norm_return_framew": 0.9726661443710327,
+ "n_failed": 0,
+ "failed": []
+}
+{
+  "status": "PASS",
+  "iteration": 98000,
+  "robot": "g1_29dof",
+  "bytes": 36487509,
+  "sha256": "9e4b9a075382b38006824954327776e63732280b62df881ad7596ee60023cddb",
+  "policy_tensor_sha256": "4044b5b4e6fe1e782e2a23d89537a8c9a312182daf5663fb646699e2d4670561",
+  "state_tensors": 26,
+  "inference_action_shape": [
+    2,
+    29
+  ],
+  "motion_tracking_evaluated": false,
+  "note": "Integrity/load/forward check only; use supermimic.evaluate with motion data for tracking metrics."
+}

@@ -1,0 +1,11 @@
+
+api_key.txt
+__pycache__/
+.vs/
+*.pyproj.user
+
+bin/
+obj/
+*.pyc
+
+tavily_api_key.txt

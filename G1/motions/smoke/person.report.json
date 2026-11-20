@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "fallen": false,
+  "simulation_seconds": 1.400000000000001,
+  "max_drift_m": 0.039129879414848336,
+  "max_joint_error_rad": 0.057829009307011736,
+  "frames": 5,
+  "low_visibility_frames": 0,
+  "scope": "上半身姿态重定向，腿部由已有RL策略维持平衡"
+}
