@@ -100,6 +100,12 @@ RAX held-out            7/8 at 128 episodes
 
 ## GitHub 源码分发
 
+私有源码仓库：
+
+```text
+https://github.com/hxlyx-hjw/G1_Project
+```
+
 GitHub 仓库保留以下全部可维护内容：
 
 - G1 DeepSeek Function Calling 控制 Agent
@@ -117,3 +123,6 @@ GitHub 仓库保留以下全部可维护内容：
 - 训练输出、历史日志、视频和缓存
 
 完整项目（除密钥、虚拟环境和缓存）另以私有 Release 分卷归档提供。
+
+模型权重、SMPL-X 许可文件和本地密钥的恢复方式见
+[MODEL_AND_DATA.md](MODEL_AND_DATA.md)。
