@@ -106,6 +106,18 @@ RAX held-out            7/8 at 128 episodes
 https://github.com/hxlyx-hjw/G1_Project
 ```
 
+完整归档 Release：
+
+```text
+https://github.com/hxlyx-hjw/G1_Project/releases/tag/v1.0.0-20261121
+```
+
+直接下载：
+
+```text
+https://github.com/hxlyx-hjw/G1_Project/releases/download/v1.0.0-20261121/G1_Project_Data_20261121.tar.gz
+```
+
 GitHub 仓库保留以下全部可维护内容：
 
 - G1 DeepSeek Function Calling 控制 Agent
