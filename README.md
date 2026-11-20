@@ -100,7 +100,7 @@ RAX held-out            7/8 at 128 episodes
 
 ## GitHub 源码分发
 
-私有源码仓库：
+公开源码仓库：
 
 ```text
 https://github.com/hxlyx-hjw/G1_Project
@@ -134,7 +134,7 @@ GitHub 仓库保留以下全部可维护内容：
 - Python 虚拟环境
 - 训练输出、历史日志、视频和缓存
 
-完整项目（除密钥、虚拟环境和缓存）另以私有 Release 分卷归档提供。
+完整项目（除密钥、虚拟环境和缓存）另以公开 Release 归档提供。
 
 模型权重、SMPL-X 许可文件和本地密钥的恢复方式见
 [MODEL_AND_DATA.md](MODEL_AND_DATA.md)。
